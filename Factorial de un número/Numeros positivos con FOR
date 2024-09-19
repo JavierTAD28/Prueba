@@ -1,0 +1,31 @@
+def factorial(n):
+  #Numeros positivos con FOR
+
+  cont = 1
+  
+  for i in range(2,n+1):
+    cont = cont*i  
+  return cont  
+    #Si se incluye el print en esta función, no ocupas [RETURN]
+
+def main():
+  n = int(input("Dame el número: "))
+  if n<0:
+    print("Factorial no definido para negativos")
+  elif (n == 0) or (n == 1):
+    print("El factorial es 1")
+  else:
+    print(factorial(n))
+  
+
+if __name__=='__main__':
+  main()
+
+
+ 
+
+
+
+
+
+ 
